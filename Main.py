@@ -35,7 +35,7 @@ def main():
     elif counter in range(8, 10):
         message = "Jon sucked quite a lot."
     else:
-        message = "Jon should start a gay porn company because of how much he's sucking."
+        message = "Jon sucked as much as he could."
 
     retval = "Luxclusive lost " + str(counter) + "/10 of his last 10 ranked games.\n" + message
     ctypes.windll.user32.MessageBoxA(0, retval, "Did Jon Suck?", 1)
